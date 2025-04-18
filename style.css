@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f1ea;
+  color: #5a4a42;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: #3e2723;
+}
+
+a {
+  text-decoration: none;
+  color: #5a4a42;
+}
+
+a:hover {
+  color: #8d6e63;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+  background-color: #8d6e63;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Intro Section */
+#intro {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #fff;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#intro h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#intro p {
+  font-size: 1.1rem;
+  color: #5a4a42;
+}
+
+/* Products Section */
+#products {
+  padding: 50px 0;
+}
+
+#products h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  text-align: center;
+  padding: 15px;
+  font-size: 1.2rem;
+  color: #3e2723;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #8d6e63;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+footer p {
+  margin: 0;
+}
+/* Login Page Styles */
+.login-container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.login-container h2 {
+  font-family: "Playfair Display", serif;
+  color: #3e2723;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.login-container .form-group {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.login-container label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #5a4a42;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #5a4a42;
+}
+
+.login-container input:focus {
+  border-color: #8d6e63;
+  outline: none;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #8d6e63;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #6d4c41;
+}
+
+.product-grid button {
+  background-color: #10d71d;
+  color: #e10b0b;
+}
